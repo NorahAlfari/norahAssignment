@@ -11,7 +11,7 @@ import SwiftUI
 struct DoctorsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            SexithPage()
+            SignUp()
         }
     }
 }

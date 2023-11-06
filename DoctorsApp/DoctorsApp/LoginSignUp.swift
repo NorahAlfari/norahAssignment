@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ThirdPage: View {
+struct LoginSignUp: View {
     var body: some View {
         VStack{
             Image(systemName: "command")
@@ -74,5 +74,5 @@ struct ThirdPage: View {
 }
 
 #Preview {
-    ThirdPage()
+    LoginSignUp()
 }

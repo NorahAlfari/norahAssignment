@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ForthPage: View {
+struct Login: View {
     @State var email = ""
     @State var password = ""
     
@@ -59,7 +59,7 @@ struct ForthPage: View {
                     
                     Image(systemName: "lock")
                         .foregroundColor(.gray)
-                    TextField("Enter your password", text: $password)
+                    SecureField("Enter your password", text: $password)
                     Image(systemName: "eye.slash")
                         .foregroundColor(.gray)
                         .padding(.trailing, 50)
@@ -197,5 +197,5 @@ struct ForthPage: View {
 }
 
 #Preview {
-    ForthPage()
+    Login()
 }

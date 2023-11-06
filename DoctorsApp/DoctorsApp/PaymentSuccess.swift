@@ -1,20 +1,21 @@
 //
-//  SeventhPage.swift
+//  PaymentSuccess.swift
 //  DoctorsApp
 //
-//  Created by Norah Alfari on 09/04/1445 AH.
+//  Created by Norah Alfari on 20/04/1445 AH.
 //
 
 import SwiftUI
 
-struct SeventhPage: View {
+struct PaymentSuccess: View {
     var body: some View {
         ZStack{
             
-            SexithPage()
+            MyCart()
+            Color.gray.opacity(0.50).ignoresSafeArea()
             
-            RoundedRectangle(cornerRadius: 50)
-                .stroke(Color.gray,lineWidth: 1)
+            RoundedRectangle(cornerRadius: 25)
+               
                 .fill(.white)
                 .frame(width: 350, height: 450)
             VStack{
@@ -28,12 +29,12 @@ struct SeventhPage: View {
                         .frame(width: 50, height: 50)
                         .foregroundColor(.color)
                 }
-                Text("Success")
+                Text("Payment Success")
                     .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                     .bold()
                 
-                Text("Your account has been successfully registered")
-                    .font(.title2)
+                Text("Your payment has been successful, you can have a consultation session With your trusted doctor")
+                    .font(.callout)
                     .foregroundColor(.color2)
                     .padding(.leading, 20)
                     .padding(.trailing, 20)
@@ -42,10 +43,10 @@ struct SeventhPage: View {
                 Button(action: {
                   
                 }) {
-                    Text("Login")
+                    Text("Back to home")
                         .bold()
                         .font(.system(size: 20))
-                        .frame(width: 300, height: 90)
+                        .frame(width: 300, height: 70)
                         .foregroundColor(Color.white)
                         .background(Color.color)
                         .clipShape(RoundedRectangle(cornerRadius: 50))
@@ -53,9 +54,10 @@ struct SeventhPage: View {
                 }
             }
         }
+
     }
 }
 
 #Preview {
-    SeventhPage()
+    PaymentSuccess()
 }

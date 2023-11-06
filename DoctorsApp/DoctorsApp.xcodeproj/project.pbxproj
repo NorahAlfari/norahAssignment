@@ -11,13 +11,35 @@
 		F8770D1F2AE6C4A80028DCD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D1E2AE6C4A80028DCD0 /* ContentView.swift */; };
 		F8770D212AE6C4AA0028DCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8770D202AE6C4AA0028DCD0 /* Assets.xcassets */; };
 		F8770D242AE6C4AA0028DCD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8770D232AE6C4AA0028DCD0 /* Preview Assets.xcassets */; };
-		F8770D2B2AE6C5060028DCD0 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2A2AE6C5060028DCD0 /* FirstPage.swift */; };
-		F8770D2D2AE6C5190028DCD0 /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2C2AE6C5190028DCD0 /* SecondPage.swift */; };
-		F8770D302AE6C53A0028DCD0 /* ThirdPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2F2AE6C53A0028DCD0 /* ThirdPage.swift */; };
-		F8770D322AE6C7D60028DCD0 /* ForthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D312AE6C7D60028DCD0 /* ForthPage.swift */; };
-		F8770D342AE6DFAF0028DCD0 /* FifthPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D332AE6DFAF0028DCD0 /* FifthPage.swift */; };
-		F8770D362AE7890D0028DCD0 /* SexithPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D352AE7890D0028DCD0 /* SexithPage.swift */; };
-		F8770D382AE78EEE0028DCD0 /* SeventhPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D372AE78EEE0028DCD0 /* SeventhPage.swift */; };
+		F8770D2B2AE6C5060028DCD0 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2A2AE6C5060028DCD0 /* SplashScreen.swift */; };
+		F8770D2D2AE6C5190028DCD0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2C2AE6C5190028DCD0 /* Onboarding.swift */; };
+		F8770D302AE6C53A0028DCD0 /* LoginSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D2F2AE6C53A0028DCD0 /* LoginSignUp.swift */; };
+		F8770D322AE6C7D60028DCD0 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D312AE6C7D60028DCD0 /* Login.swift */; };
+		F8770D342AE6DFAF0028DCD0 /* LoginSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D332AE6DFAF0028DCD0 /* LoginSuccess.swift */; };
+		F8770D362AE7890D0028DCD0 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D352AE7890D0028DCD0 /* SignUp.swift */; };
+		F8770D382AE78EEE0028DCD0 /* SignUpSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8770D372AE78EEE0028DCD0 /* SignUpSuccess.swift */; };
+		F8D55A0D2AF26C6700BBB11B /* ResetPasssword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A0C2AF26C6700BBB11B /* ResetPasssword.swift */; };
+		F8D55A0F2AF270E800BBB11B /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A0E2AF270E800BBB11B /* Verification.swift */; };
+		F8D55A172AF2C6DA00BBB11B /* NewPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A162AF2C6DA00BBB11B /* NewPassword.swift */; };
+		F8D55A192AF2CF0900BBB11B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A182AF2CF0900BBB11B /* Home.swift */; };
+		F8D55A1B2AF2E8CC00BBB11B /* TopDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A1A2AF2E8CC00BBB11B /* TopDoctors.swift */; };
+		F8D55A372AF38AFC00BBB11B /* FindDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A362AF38AFC00BBB11B /* FindDoctors.swift */; };
+		F8D55A392AF3965500BBB11B /* DoctorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A382AF3965500BBB11B /* DoctorDetail.swift */; };
+		F8D55A3B2AF3C27000BBB11B /* BookingDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A3A2AF3C27000BBB11B /* BookingDoctor.swift */; };
+		F8D55A3D2AF5070900BBB11B /* BookingDoctorSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A3C2AF5070900BBB11B /* BookingDoctorSuccess.swift */; };
+		F8D55A3F2AF5089B00BBB11B /* ChatDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A3E2AF5089B00BBB11B /* ChatDoctor.swift */; };
+		F8D55A412AF53D5800BBB11B /* AudioCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A402AF53D5800BBB11B /* AudioCall.swift */; };
+		F8D55A432AF547D300BBB11B /* VideoCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A422AF547D300BBB11B /* VideoCall.swift */; };
+		F8D55A452AF5585500BBB11B /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A442AF5585500BBB11B /* Schedule.swift */; };
+		F8D55A472AF5663300BBB11B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A462AF5663300BBB11B /* Message.swift */; };
+		F8D55A492AF57D0900BBB11B /* Arcticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A482AF57D0900BBB11B /* Arcticles.swift */; };
+		F8D55A4B2AF65CD100BBB11B /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A4A2AF65CD100BBB11B /* Pharmacy.swift */; };
+		F8D55A4D2AF6761A00BBB11B /* Drugs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A4C2AF6761900BBB11B /* Drugs.swift */; };
+		F8D55A4F2AF67B8800BBB11B /* MyCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A4E2AF67B8800BBB11B /* MyCart.swift */; };
+		F8D55A512AF6814300BBB11B /* PaymentSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A502AF6814300BBB11B /* PaymentSuccess.swift */; };
+		F8D55A532AF682C800BBB11B /* Ambulance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A522AF682C800BBB11B /* Ambulance.swift */; };
+		F8D55A552AF6995B00BBB11B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A542AF6995B00BBB11B /* Profile.swift */; };
+		F8D55A572AF6A20D00BBB11B /* Logout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D55A562AF6A20D00BBB11B /* Logout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,13 +48,35 @@
 		F8770D1E2AE6C4A80028DCD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8770D202AE6C4AA0028DCD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8770D232AE6C4AA0028DCD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F8770D2A2AE6C5060028DCD0 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
-		F8770D2C2AE6C5190028DCD0 /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
-		F8770D2F2AE6C53A0028DCD0 /* ThirdPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPage.swift; sourceTree = "<group>"; };
-		F8770D312AE6C7D60028DCD0 /* ForthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthPage.swift; sourceTree = "<group>"; };
-		F8770D332AE6DFAF0028DCD0 /* FifthPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthPage.swift; sourceTree = "<group>"; };
-		F8770D352AE7890D0028DCD0 /* SexithPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexithPage.swift; sourceTree = "<group>"; };
-		F8770D372AE78EEE0028DCD0 /* SeventhPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhPage.swift; sourceTree = "<group>"; };
+		F8770D2A2AE6C5060028DCD0 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		F8770D2C2AE6C5190028DCD0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		F8770D2F2AE6C53A0028DCD0 /* LoginSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUp.swift; sourceTree = "<group>"; };
+		F8770D312AE6C7D60028DCD0 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F8770D332AE6DFAF0028DCD0 /* LoginSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSuccess.swift; sourceTree = "<group>"; };
+		F8770D352AE7890D0028DCD0 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		F8770D372AE78EEE0028DCD0 /* SignUpSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSuccess.swift; sourceTree = "<group>"; };
+		F8D55A0C2AF26C6700BBB11B /* ResetPasssword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasssword.swift; sourceTree = "<group>"; };
+		F8D55A0E2AF270E800BBB11B /* Verification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		F8D55A162AF2C6DA00BBB11B /* NewPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPassword.swift; sourceTree = "<group>"; };
+		F8D55A182AF2CF0900BBB11B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F8D55A1A2AF2E8CC00BBB11B /* TopDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopDoctors.swift; sourceTree = "<group>"; };
+		F8D55A362AF38AFC00BBB11B /* FindDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDoctors.swift; sourceTree = "<group>"; };
+		F8D55A382AF3965500BBB11B /* DoctorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDetail.swift; sourceTree = "<group>"; };
+		F8D55A3A2AF3C27000BBB11B /* BookingDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDoctor.swift; sourceTree = "<group>"; };
+		F8D55A3C2AF5070900BBB11B /* BookingDoctorSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingDoctorSuccess.swift; sourceTree = "<group>"; };
+		F8D55A3E2AF5089B00BBB11B /* ChatDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDoctor.swift; sourceTree = "<group>"; };
+		F8D55A402AF53D5800BBB11B /* AudioCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCall.swift; sourceTree = "<group>"; };
+		F8D55A422AF547D300BBB11B /* VideoCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCall.swift; sourceTree = "<group>"; };
+		F8D55A442AF5585500BBB11B /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		F8D55A462AF5663300BBB11B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F8D55A482AF57D0900BBB11B /* Arcticles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arcticles.swift; sourceTree = "<group>"; };
+		F8D55A4A2AF65CD100BBB11B /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		F8D55A4C2AF6761900BBB11B /* Drugs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drugs.swift; sourceTree = "<group>"; };
+		F8D55A4E2AF67B8800BBB11B /* MyCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCart.swift; sourceTree = "<group>"; };
+		F8D55A502AF6814300BBB11B /* PaymentSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccess.swift; sourceTree = "<group>"; };
+		F8D55A522AF682C800BBB11B /* Ambulance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambulance.swift; sourceTree = "<group>"; };
+		F8D55A542AF6995B00BBB11B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F8D55A562AF6A20D00BBB11B /* Logout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +113,35 @@
 				F8770D1E2AE6C4A80028DCD0 /* ContentView.swift */,
 				F8770D202AE6C4AA0028DCD0 /* Assets.xcassets */,
 				F8770D222AE6C4AA0028DCD0 /* Preview Content */,
-				F8770D2A2AE6C5060028DCD0 /* FirstPage.swift */,
-				F8770D2C2AE6C5190028DCD0 /* SecondPage.swift */,
-				F8770D2F2AE6C53A0028DCD0 /* ThirdPage.swift */,
-				F8770D312AE6C7D60028DCD0 /* ForthPage.swift */,
-				F8770D332AE6DFAF0028DCD0 /* FifthPage.swift */,
-				F8770D352AE7890D0028DCD0 /* SexithPage.swift */,
-				F8770D372AE78EEE0028DCD0 /* SeventhPage.swift */,
+				F8770D2A2AE6C5060028DCD0 /* SplashScreen.swift */,
+				F8770D2C2AE6C5190028DCD0 /* Onboarding.swift */,
+				F8770D2F2AE6C53A0028DCD0 /* LoginSignUp.swift */,
+				F8770D312AE6C7D60028DCD0 /* Login.swift */,
+				F8770D332AE6DFAF0028DCD0 /* LoginSuccess.swift */,
+				F8770D352AE7890D0028DCD0 /* SignUp.swift */,
+				F8770D372AE78EEE0028DCD0 /* SignUpSuccess.swift */,
+				F8D55A0C2AF26C6700BBB11B /* ResetPasssword.swift */,
+				F8D55A0E2AF270E800BBB11B /* Verification.swift */,
+				F8D55A162AF2C6DA00BBB11B /* NewPassword.swift */,
+				F8D55A182AF2CF0900BBB11B /* Home.swift */,
+				F8D55A1A2AF2E8CC00BBB11B /* TopDoctors.swift */,
+				F8D55A362AF38AFC00BBB11B /* FindDoctors.swift */,
+				F8D55A382AF3965500BBB11B /* DoctorDetail.swift */,
+				F8D55A3A2AF3C27000BBB11B /* BookingDoctor.swift */,
+				F8D55A3C2AF5070900BBB11B /* BookingDoctorSuccess.swift */,
+				F8D55A3E2AF5089B00BBB11B /* ChatDoctor.swift */,
+				F8D55A402AF53D5800BBB11B /* AudioCall.swift */,
+				F8D55A422AF547D300BBB11B /* VideoCall.swift */,
+				F8D55A442AF5585500BBB11B /* Schedule.swift */,
+				F8D55A462AF5663300BBB11B /* Message.swift */,
+				F8D55A482AF57D0900BBB11B /* Arcticles.swift */,
+				F8D55A4A2AF65CD100BBB11B /* Pharmacy.swift */,
+				F8D55A4C2AF6761900BBB11B /* Drugs.swift */,
+				F8D55A4E2AF67B8800BBB11B /* MyCart.swift */,
+				F8D55A502AF6814300BBB11B /* PaymentSuccess.swift */,
+				F8D55A522AF682C800BBB11B /* Ambulance.swift */,
+				F8D55A542AF6995B00BBB11B /* Profile.swift */,
+				F8D55A562AF6A20D00BBB11B /* Logout.swift */,
 			);
 			path = DoctorsApp;
 			sourceTree = "<group>";
@@ -158,15 +224,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8770D322AE6C7D60028DCD0 /* ForthPage.swift in Sources */,
-				F8770D2D2AE6C5190028DCD0 /* SecondPage.swift in Sources */,
-				F8770D382AE78EEE0028DCD0 /* SeventhPage.swift in Sources */,
-				F8770D302AE6C53A0028DCD0 /* ThirdPage.swift in Sources */,
-				F8770D342AE6DFAF0028DCD0 /* FifthPage.swift in Sources */,
+				F8770D322AE6C7D60028DCD0 /* Login.swift in Sources */,
+				F8D55A552AF6995B00BBB11B /* Profile.swift in Sources */,
+				F8770D2D2AE6C5190028DCD0 /* Onboarding.swift in Sources */,
+				F8D55A452AF5585500BBB11B /* Schedule.swift in Sources */,
+				F8D55A4D2AF6761A00BBB11B /* Drugs.swift in Sources */,
+				F8D55A0F2AF270E800BBB11B /* Verification.swift in Sources */,
+				F8D55A432AF547D300BBB11B /* VideoCall.swift in Sources */,
+				F8D55A512AF6814300BBB11B /* PaymentSuccess.swift in Sources */,
+				F8D55A372AF38AFC00BBB11B /* FindDoctors.swift in Sources */,
+				F8770D382AE78EEE0028DCD0 /* SignUpSuccess.swift in Sources */,
+				F8D55A172AF2C6DA00BBB11B /* NewPassword.swift in Sources */,
+				F8D55A3F2AF5089B00BBB11B /* ChatDoctor.swift in Sources */,
+				F8D55A3D2AF5070900BBB11B /* BookingDoctorSuccess.swift in Sources */,
+				F8770D302AE6C53A0028DCD0 /* LoginSignUp.swift in Sources */,
+				F8D55A4B2AF65CD100BBB11B /* Pharmacy.swift in Sources */,
+				F8770D342AE6DFAF0028DCD0 /* LoginSuccess.swift in Sources */,
+				F8D55A392AF3965500BBB11B /* DoctorDetail.swift in Sources */,
+				F8D55A3B2AF3C27000BBB11B /* BookingDoctor.swift in Sources */,
+				F8D55A412AF53D5800BBB11B /* AudioCall.swift in Sources */,
 				F8770D1F2AE6C4A80028DCD0 /* ContentView.swift in Sources */,
-				F8770D362AE7890D0028DCD0 /* SexithPage.swift in Sources */,
+				F8D55A0D2AF26C6700BBB11B /* ResetPasssword.swift in Sources */,
+				F8D55A472AF5663300BBB11B /* Message.swift in Sources */,
+				F8D55A532AF682C800BBB11B /* Ambulance.swift in Sources */,
+				F8D55A4F2AF67B8800BBB11B /* MyCart.swift in Sources */,
+				F8770D362AE7890D0028DCD0 /* SignUp.swift in Sources */,
 				F8770D1D2AE6C4A80028DCD0 /* DoctorsAppApp.swift in Sources */,
-				F8770D2B2AE6C5060028DCD0 /* FirstPage.swift in Sources */,
+				F8D55A572AF6A20D00BBB11B /* Logout.swift in Sources */,
+				F8D55A492AF57D0900BBB11B /* Arcticles.swift in Sources */,
+				F8D55A192AF2CF0900BBB11B /* Home.swift in Sources */,
+				F8770D2B2AE6C5060028DCD0 /* SplashScreen.swift in Sources */,
+				F8D55A1B2AF2E8CC00BBB11B /* TopDoctors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SexithPage: View {
+struct SignUp: View {
     
     @State var email = ""
     @State var password = ""
@@ -168,5 +168,5 @@ struct SexithPage: View {
 }
 
 #Preview {
-    SexithPage()
+    SignUp()
 }

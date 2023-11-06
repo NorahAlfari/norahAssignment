@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SecondPage: View {
+struct Onboarding: View {
     var body: some View {
         TabView{
             VStack{
@@ -84,6 +84,8 @@ struct SecondPage: View {
                         .padding(.leading, 0)
                         .padding(.trailing, 240)
                      }}
+            
+        
             VStack{
                 
                 Button(action: {
@@ -241,5 +243,5 @@ struct SecondPage: View {
 }
 
 #Preview {
-    SecondPage()
+    Onboarding()
 }

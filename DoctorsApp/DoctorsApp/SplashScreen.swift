@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FirstPage: View {
+struct SplashScreen: View {
     var body: some View {
         ZStack{
            /*طريقة علي للون الخلفية
@@ -39,5 +39,5 @@ struct FirstPage: View {
 }
 
 #Preview {
-    FirstPage()
+    SplashScreen()
 }
